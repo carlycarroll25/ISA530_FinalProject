@@ -37,3 +37,8 @@ To set up this project locally, follow these steps:
    ```bash
    git clone https://github.com/YourUsername/YourRepositoryName.git
    cd YourRepositoryName
+2. **Install Required Packages**: pip install -r requirements.txt
+3. **Upload Data**:
+   - Place MIDUS twin CSV files in the project directory
+   - Ensure file names match those referenced in the notebooks
+5. **Run the Project**: Execute notebooks sequentially, starting with Exploratory Data Analysis.ipynb
