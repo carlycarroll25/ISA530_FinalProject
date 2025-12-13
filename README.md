@@ -32,17 +32,19 @@ The project followed these main steps:
 - **Longitudinal Modeling**: Family and individual level effects explained a substantial portion of health variance, while environmental predictors remained significant across waves
 
 ## Installation
-To set up this project locally, follow these steps:
+To set up this project locally, ensure the following Python packages are installed:
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+- `statsmodels`
+- `scipy`
+- `jupyter`
+
+Then follow these steps:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/YourUsername/YourRepositoryName.git
    cd YourRepositoryName
-   ```
-2. **Install Required Packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Upload Data**:
-   - Place MIDUS twin CSV files in the project directory
-   - Ensure file names match those referenced in the notebooks
-5. **Run the Project**: Execute notebooks sequentially, starting with Exploratory Data Analysis.ipynb
