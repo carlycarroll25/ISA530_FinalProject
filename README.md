@@ -32,19 +32,17 @@ The project followed these main steps:
 - **Longitudinal Modeling**: Family and individual level effects explained a substantial portion of health variance, while environmental predictors remained significant across waves
 
 ## Installation
-To set up this project locally, ensure the following Python packages are installed:
+To run this project locally, ensure the following Python libraries are installed:
 
+- `os`
+- `typing`
 - `numpy`
 - `pandas`
+- `pyreadstat`
 - `matplotlib`
 - `seaborn`
 - `scikit-learn`
 - `statsmodels`
 - `scipy`
+- `IPython`
 - `jupyter`
-
-Then follow these steps:
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/YourUsername/YourRepositoryName.git
-   cd YourRepositoryName
