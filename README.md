@@ -39,9 +39,9 @@ To set up this project locally, follow these steps:
    cd YourRepositoryName
    ```
 2. **Install Required Packages**:
-```bash
+   ```bash
    pip install -r requirements.txt
-```
+   ```
 4. **Upload Data**:
    - Place MIDUS twin CSV files in the project directory
    - Ensure file names match those referenced in the notebooks
