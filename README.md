@@ -8,7 +8,7 @@ This project applies machine learning and statistical modeling techniques to exa
 ### Data
 This project uses a cleaned subset of the Midlife in the United States (MIDUS) study restricted to twin pairs. The datasets included here are processed versions of the original MIDUS twin data, prepared for cross sectional, longitudinal, and within twin pair analyses.
 - **`MIDUS_twins_wide.csv`**: Wide format dataset with one row per individual, used for supervised learning and cross sectional analyses
-- **`MIDUS_twins_long.csv`**: Long format dataset with repeated observations across MIDUS waves, used for longitudinal mixed effects modeling
+- **`MIDUS_twins_long.csv`**: Long format dataset with repeated observations across MIDUS waves, used for longitudinal modeling
 - **`MIDUS_twins_diffs.csv`**: Within twin pair difference dataset used to isolate environmental and behavioral divergence while controlling for shared genetics
 
 ### Files
