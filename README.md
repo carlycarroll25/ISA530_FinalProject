@@ -53,11 +53,10 @@ To run this project locally, download the following files and place them **all i
 - Supervised Learning.ipynb
 - Longitudinal Analysis.ipynb
 
-(Note: The Data Preprocessing notebook is not required to reproduce results, as cleaned datasets are provided.)
+Note: The Data Preprocessing notebook is not required to reproduce results, as cleaned datasets are provided.
 
 ### Install Required Libraries
-Ensure Python 3 is installed, then install the required dependencies:
-
+Ensure Python 3 is installed, then install the required libraires:
 ```bash
 pip install numpy pandas pyreadstat matplotlib seaborn scikit-learn statsmodels scipy ipython jupyter
 
