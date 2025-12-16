@@ -38,17 +38,26 @@ The project followed these main steps:
 - **Longitudinal Modeling**: Family and individual level effects explained a substantial portion of health variance, while environmental predictors remained significant across waves
 
 ## Installation
-To run this project locally, ensure the following Python libraries are installed:
 
-- `os`
-- `typing`
-- `numpy`
-- `pandas`
-- `pyreadstat`
-- `matplotlib`
-- `seaborn`
-- `scikit-learn`
-- `statsmodels`
-- `scipy`
-- `IPython`
-- `jupyter`
+### Project Setup
+To run this project locally, download the following files and place them **all in the same folder**:
+
+**Cleaned Datasets**
+- MIDUS_twins_wide.csv
+- MIDUS_twins_long.csv
+- MIDUS_twins_diffs.csv
+
+**Analysis Notebooks**
+- Exploratory Data Analysis.ipynb
+- Unsupervised Learning.ipynb
+- Supervised Learning.ipynb
+- Longitudinal Analysis.ipynb
+
+(Note: The Data Preprocessing notebook is not required to reproduce results, as cleaned datasets are provided.)
+
+### Install Required Libraries
+Ensure Python 3 is installed, then install the required dependencies:
+
+```bash
+pip install numpy pandas pyreadstat matplotlib seaborn scikit-learn statsmodels scipy ipython jupyter
+
